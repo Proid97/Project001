@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-15",
+  "scope": "개발계획의 알고리즘 가정 확인",
+  "exhaustive_3x3_3color_boards": 19683,
+  "reference": "중복 칸을 제외한 깊이3 DFS",
+  "no_move_7x8_4color_case": "pass",
+  "preserving_rearrangements": 500,
+  "preserved": [
+    "볼 ID",
+    "색",
+    "특수 볼 표시",
+    "총56개"
+  ],
+  "game_integration_test": false,
+  "ipad_performance_test": false,
+  "review_checkpoints": [
+    {
+      "round": 0,
+      "sha256": "50640f007d7fddae3b17eebe74bd84301e828baee63552e148db9a120f0a3d11",
+      "bytes": 29079
+    },
+    {
+      "round": 1,
+      "sha256": "1863e17534afcf1704dc9569d3924760e27e089fc6b31112dca71e000edce09c",
+      "bytes": 32049,
+      "checks": "도구 역할·런타임 분리·엔진 재사용 확인"
+    },
+    {
+      "round": 2,
+      "sha256": "8414b4dffcbee41ac3d4f32332a8c3e826709985ad537c5dea81d452102ff5f5",
+      "bytes": 34576,
+      "checks": "3×3·3색 전체19683판을 독립 DFS와 대조; 보존형 재배치500개 확인"
+    },
+    {
+      "round": 3,
+      "sha256": "51eda7a2de2123b5414ad9199ebad516fda435214d219c74d654116e7134c39e",
+      "bytes": 39369,
+      "checks": "개발 명령·단일 HTML·에셋 추적·도구 가용성 확인"
+    }
+  ],
+  "packages": [
+    {
+      "name": "phaser",
+      "version": "4.2.1",
+      "engines": {},
+      "peerDependencies": {},
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/phaser/latest",
+      "metadata_read": true
+    },
+    {
+      "name": "vite",
+      "version": "8.3.4",
+      "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+      },
+      "peerDependencies": {
+        "tsx": "^4.8.1",
+        "jiti": ">=1.21.0",
+        "less": "^4.0.0",
+        "sass": "^1.70.0",
+        "yaml": "^2.4.2",
+        "stylus": ">=0.54.8",
+        "terser": "^5.16.0",
+        "esbuild": "^0.27.0 || ^0.28.0",
+        "sugarss": "^5.0.0",
+        "@types/node": "^20.19.0 || >=22.12.0",
+        "sass-embedded": "^1.70.0",
+        "@vitejs/devtools": "^0.7.1"
+      },
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/vite/latest",
+      "metadata_read": true
+    },
+    {
+      "name": "typescript",
+      "version": "7.0.2",
+      "engines": {
+        "node": ">=16.20.0"
+      },
+      "peerDependencies": {},
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/typescript/latest",
+      "metadata_read": true
+    },
+    {
+      "name": "vitest",
+      "version": "5.0.4",
+      "engines": {
+        "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+      },
+      "peerDependencies": {
+        "vite": "^6.4.0 || ^7.0.0 || ^8.0.0",
+        "jsdom": "*",
+        "happy-dom": "*",
+        "@vitest/ui": "5.0.4",
+        "@types/node": "^22.0.0 || >=24.0.0",
+        "@edge-runtime/vm": "*",
+        "@opentelemetry/api": "^1.9.0",
+        "@vitest/coverage-v8": "5.0.4",
+        "@vitest/browser-preview": "5.0.4",
+        "@vitest/coverage-istanbul": "5.0.4",
+        "@vitest/browser-playwright": "5.0.4",
+        "@vitest/browser-webdriverio": "^5.0.0-beta.5 || >=5.0.0"
+      },
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/vitest/latest",
+      "metadata_read": true
+    },
+    {
+      "name": "@playwright/test",
+      "version": "1.64.1",
+      "engines": {
+        "node": ">=20"
+      },
+      "peerDependencies": {},
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/@playwright%2ftest/latest",
+      "metadata_read": true
+    },
+    {
+      "name": "@biomejs/biome",
+      "version": "2.5.15",
+      "engines": {
+        "node": ">=14.21.3"
+      },
+      "peerDependencies": {},
+      "license": "MIT OR Apache-2.0",
+      "source": "https://registry.npmjs.org/@biomejs%2fbiome/latest",
+      "metadata_read": true
+    },
+    {
+      "name": "vite-plugin-singlefile",
+      "version": "2.3.3",
+      "engines": {
+        "node": ">18.0.0"
+      },
+      "peerDependencies": {
+        "vite": "^5.4.21 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+        "rollup": "^4.59.0"
+      },
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/vite-plugin-singlefile/latest",
+      "metadata_read": true
+    }
+  ],
+  "package_install_and_build_verified": false,
+  "runtime_environment": {
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "pillow": "12.3.0",
+    "ffmpeg": "/usr/bin/ffmpeg",
+    "blender_found": false
+  }
+}
