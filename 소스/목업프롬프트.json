@@ -1,0 +1,69 @@
+{
+  "mode": "built-in image_gen",
+  "master": "Use case: ui-mockup. Create ONE polished game screenshot P03 for Wax Pop / 왁스팝, portrait 9:16 image, high quality commercial casual mobile puzzle. No phone frame. Cream white background with very subtle mint haze, soft rounded cream tray, exactly 7 columns and 8 rows of round soft wax balls. Four pastel colours mint, peach, lavender, pale cream yellow, clear distinct tiny surface marks: mint small leaf, peach tiny dash, purple 3 dots, yellow small ring. Each ball has THIN cloudy matte wax coating and slightly translucent jelly core, gentle irregular rounded silhouette, broad soft upper-left light, minimal highlights, small soft contact shadow. Absolutely NOT hard glass marbles, no sharp specular rim, no neon, no metallic, no jewels, no brand characters. Make balls occupy most of screen, clear gaps. Top UI neat rounded panels in dark plum: exact Korean text '단계 4', '목표' with mint ball icon and '18', remaining-moves peach circle '20', pause icon. Bottom short caption '같은 색을 3개 이상 이어요'. Large simple pill buttons. Leave sufficient portrait safe area. Minimal decorative clutter. This is the visual master for 15 coherent screens. Material evidence to translate: squished soft ball bulges around thumb; wax forms irregular shallow flakes, gelatin core is more transparent than cloudy shell; clear slime has tiny sparse bubbles; butter slime has broad folded planes. Do not copy any researched product logo or character. Deliver only the single screenshot.",
+  "firstScenes": [
+    [
+      "S01_드래그연결",
+      "S01 drag interaction. Preserve exact 7-column 8-row board and top UI. Three adjacent mint balls along a diagonal row2 col4 -> row3 col3 -> row4 col2 are connected with a soft mint-white thin line, selected balls gently squashed and stretched toward a single fingertip pressing the last ball. Small plum pill '3개 연결'. Other balls unchanged and board readable. No extra controls. Show a touch hand only at board lower-left, not covering target. Same camera and palette."
+    ],
+    [
+      "S02_껍질파열",
+      "S02 burst moment just after release. Preserve exact board arrangement 7x8, same top UI now remaining moves 19 and mint goal 15. Three mint balls row2 col4, row3 col3, row4 col2 have thin cloudy wax shell cracked open revealing more translucent wobbling pale-green jelly. Small irregular shallow WAX flakes close to these cells only; broad folds in soft jelly core, no glass shards or sharp spikes, no explosion covering others. Subtle little sequence marks, no dramatic streaks. Other balls remain intact. Bottom '바삭! 속은 말랑하게'. Same style."
+    ]
+  ],
+  "batch1": [
+    [
+      "P01_타이틀",
+      "Title screen. Replace gameplay board with one large mint wax ball, a small peach ball and lavender ball at center, thin cloudy matte shell with subtle irregular edge and jelly translucency. At upper center elegant rounded title exact '왁스팝', smaller 'WAX POP'. Bottom large peach pill '시작하기', small plum '설정'. Lots of calm cream whitespace, no characters. Same art, palette and light."
+    ],
+    [
+      "P02_스테이지지도",
+      "Stage map screen. Exact title '스테이지'. A simple winding mint path links EXACTLY 12 large numbered round stage nodes numbered 1 through 12 once each. Stages 1,2,3 completed with small check; stage4 current peach halo;5-12 locked and subdued. Tiny theme captions '색 모으기' for1-3, '왁스판' for4-6, '크런치볼' for7-9, '함께 도전' for10-12. One back button, no booster icons. Same visual design and 9:16."
+    ],
+    [
+      "O01_단게시작",
+      "Show centered cream rounded start-level popup above the SAME gameplay screen dimmed in plum behind it. Exact readable Korean title '단계 4', goal line '민트 볼 18개 모으기', moves '이동 횟수 20', large peach pill '시작'. Mint wax ball icon above. The popup is clearly OVER the reference board, not separate standalone scene. Same style."
+    ],
+    [
+      "O03_일시정지설정",
+      "Show centered cream rounded settings popup over SAME dimmed gameplay. Exact title '잠깐 쉬어요'. Three neat toggle rows '효과음' on, '음악' off, '진동' on. Large mint pill '계속하기'; smaller peach '다시 시작', cream '지도'. Consistent soft UI, dark plum text. No unrelated icons or rewards."
+    ]
+  ],
+  "batch2": [
+    [
+      "O02_첫조작안내",
+      "Centered cream tutorial popup over SAME dimmed board. Title '같은 색 3개를 이어요'. Inside popup three mint wax balls form an adjacent diagonal with a thin connecting line and simple finger gesture at final ball. Short caption '손을 떼면 톡톡!'. One large peach button '해볼게요'. Do not show different-colour connected balls."
+    ],
+    [
+      "O04_성공",
+      "Centered success popup over SAME dimmed game board. Title '목표 달성!', large mint soft wax ball with tiny shell chips and very restrained confetti. Two clear rows '민트 볼 18 / 18', '남은 횟수 5'. Large peach pill '다음 단계', smaller '지도'. No stars/coins or lives/currency systems."
+    ],
+    [
+      "O05_실패",
+      "Centered retry popup over SAME dimmed board, friendly calm cream card, no angry characters. Title '조금만 더!', rows '남은 목표: 민트 볼 3개', '남은 횟수 0'. Large peach pill '다시 도전', smaller '지도'. No ads, lives, coins or offers. Same buttons."
+    ],
+    [
+      "O06_나가기확인",
+      "Small centered confirmation popup over SAME dimmed gameplay. Title '지도로 나갈까요?', concise text '이번 판은 처음부터 시작해요'. Two large side-by-side pills '계속하기' mint and '나가기' peach. No extra features. Same palette and typography."
+    ]
+  ],
+  "batch3": [
+    [
+      "O07_12단계완료",
+      "Centered celebration popup over SAME dimmed stage map-like board. Title exact '12단계 완료!', subtitle '바삭한 첫 여행을 마쳤어요'. Four soft mint peach lavender yellow wax balls in simple arc, tiny restrained paperlike wax chips, no characters. Large peach pill '지도로'. No next episode offer, no currency. Same design."
+    ],
+    [
+      "O08_제작소리출처",
+      "Centered taller cream credits popup over SAME dimmed gameplay. Title '제작 · 소리 출처'. Neatly readable short rows '왁스팝 / Wax Pop', '소리: Kenney · CC0', '슬라임: Freesound 제작자', '사진: 각 자료의 이용 조건 확인'. Small caption '전체 출처는 검토 문서에서 확인해요'. Bottom mint button '닫기'. This is visual credits mockup, actual full licenses live in review HTML. No invented logo."
+    ],
+    [
+      "S03_크런치볼작동",
+      "Show SAME 7-column 8-row board. Center row4 column4 mint ball is a Crunch ball: cloudy shell with tiny shallow cracks and distinct simple 4-point stamp. Highlight exactly 3 columns and 3 rows around it (rows3,4,5 columns3,4,5) with a subtle rounded peach rectangle UNDER the 9 cells, not obscuring balls. Include tiny wax chips only in range. A second marked crunch ball in this 3x3 range has a subtle ring to show chain reaction. Bottom exact '크런치볼 · 주변 3×3칸'. No UI overlays blocking goals. 9 cells only, preserve other board cells."
+    ],
+    [
+      "S04_볼섞기",
+      "Same exact 7-column 8-row board, same top bar with remaining moves still20. Small centered dark plum rounded toast '연결할 곳이 없어 다시 섞어요', subtitle '이동 횟수는 그대로!'. A few balls have short subtle curved motion lines, no giant arrows hiding board. The toast is compact across middle, clearly transient. No spinner, coins, booster buttons or hands. Same material and lighting."
+    ]
+  ],
+  "note": "P03 초기 9행 오류를7x8로 편집. 지도4단계의 설명을색모으기로 수정. 최종 PNG를보존. 이미지를 재생성하면 결과는 달라질 수 있음."
+}

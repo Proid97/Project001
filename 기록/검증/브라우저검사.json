@@ -1,0 +1,341 @@
+{
+  "browser": "136.0.7103.25",
+  "offline": true,
+  "tests": [
+    {
+      "name": "actual asset counts",
+      "passed": true
+    },
+    {
+      "name": "32 embedded MP3 decoded by browser",
+      "passed": true
+    },
+    {
+      "name": "reference category filter",
+      "passed": true
+    },
+    {
+      "name": "photo dialog open",
+      "passed": true
+    },
+    {
+      "name": "photo next",
+      "passed": true
+    },
+    {
+      "name": "screen next navigation",
+      "passed": true
+    },
+    {
+      "name": "keyboard previous",
+      "passed": true
+    },
+    {
+      "name": "sound ID search",
+      "passed": true
+    },
+    {
+      "name": "sound category filter",
+      "passed": true
+    },
+    {
+      "name": "user click starts embedded audio",
+      "passed": true
+    },
+    {
+      "name": "single audio element + source change",
+      "passed": true
+    },
+    {
+      "name": "volume control",
+      "passed": true
+    },
+    {
+      "name": "stop",
+      "passed": true
+    },
+    {
+      "name": "menu stops audio",
+      "passed": true
+    },
+    {
+      "name": "candidate filter",
+      "passed": true
+    },
+    {
+      "name": "JSON export content",
+      "passed": true
+    },
+    {
+      "name": "localStorage reload persistence",
+      "passed": true
+    },
+    {
+      "name": "JSON import",
+      "passed": true
+    },
+    {
+      "name": "invalid JSON rejected",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 375/overview",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 375/refs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 375/screens",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 375/sounds",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 375/docs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 390/overview",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 390/refs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 390/screens",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 390/sounds",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 390/docs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 768/overview",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 768/refs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 768/screens",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 768/sounds",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 768/docs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 820/overview",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 820/refs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 820/screens",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 820/sounds",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 820/docs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440/overview",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440/refs",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440/screens",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440/sounds",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440/docs",
+      "passed": true
+    },
+    {
+      "name": "15 mockup JPEG images decode",
+      "passed": true
+    },
+    {
+      "name": "print exposes all sections",
+      "passed": true
+    },
+    {
+      "name": "blocked storage notice",
+      "passed": true
+    },
+    {
+      "name": "JSON export works with blocked storage",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    },
+    {
+      "name": "no network resource requests",
+      "passed": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 375,
+      "tab": "overview",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "tab": "refs",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "tab": "screens",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "tab": "sounds",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "tab": "docs",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "tab": "overview",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "tab": "refs",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "tab": "screens",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "tab": "sounds",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "tab": "docs",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "tab": "overview",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "tab": "refs",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "tab": "screens",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "tab": "sounds",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "tab": "docs",
+      "overflow": false
+    },
+    {
+      "width": 820,
+      "tab": "overview",
+      "overflow": false
+    },
+    {
+      "width": 820,
+      "tab": "refs",
+      "overflow": false
+    },
+    {
+      "width": 820,
+      "tab": "screens",
+      "overflow": false
+    },
+    {
+      "width": 820,
+      "tab": "sounds",
+      "overflow": false
+    },
+    {
+      "width": 820,
+      "tab": "docs",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "tab": "overview",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "tab": "refs",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "tab": "screens",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "tab": "sounds",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "tab": "docs",
+      "overflow": false
+    }
+  ],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "counts": {
+    "refs": 27,
+    "embedded": 3,
+    "sounds": 32,
+    "screens": 15
+  }
+}
