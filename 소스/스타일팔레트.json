@@ -1,0 +1,17 @@
+[
+  {
+    "id": "P1", "name": "소다 피치", "tag": "추천", "description": "상큼한 민트와 복숭아, 포근한 크림 배경. 현재 왁스팝 방향과 가장 자연스럽게 이어집니다.",
+    "background": "#FFF7ED", "panel": "#FFFFFF", "board": "#E3F2EB", "ink": "#3C2943", "button": "#FF8DA4",
+    "balls": ["#4ED9BD", "#FF9D80", "#B69AFF", "#FFD56B"], "ball_names": ["민트", "복숭아", "연보라", "레몬 크림"]
+  },
+  {
+    "id": "P2", "name": "베리 레몬", "tag": "달달함", "description": "딸기 우유 배경에 베리색 버튼. 사탕 가게처럼 달고 발랄한 인상이 강합니다.",
+    "background": "#FFF0F6", "panel": "#FFFCFD", "board": "#F1E4F0", "ink": "#432449", "button": "#FF83AC",
+    "balls": ["#68DBBB", "#FFA089", "#C19BEF", "#FFE077"], "ball_names": ["애플 민트", "피치 젤리", "포도 밀크", "레몬"]
+  },
+  {
+    "id": "P3", "name": "트로피컬 구미", "tag": "상큼함", "description": "시원한 소다 배경과 선명한 코랄 버튼. 조금 더 활기차고 장난감 같은 느낌입니다.",
+    "background": "#EFFFF8", "panel": "#FFFFFF", "board": "#DCEEF1", "ink": "#263C50", "button": "#FFAA83",
+    "balls": ["#32CDB1", "#FF906F", "#A88AEF", "#F7D35D"], "ball_names": ["라임 민트", "코랄 망고", "베리 퍼플", "파인애플"]
+  }
+]

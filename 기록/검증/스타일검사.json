@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-15",
+  "browser": "136.0.7103.25",
+  "offline": true,
+  "checks": [
+    "내장 한글 글꼴 로드",
+    "볼 원본 4종과 48px 축소 4종 해독",
+    "4종·3팔레트 표시",
+    "배경 전환 5개 작동",
+    "5개 너비 가로 넘침 없음",
+    "JS·콘솔 오류0, HTTP 요청0"
+  ],
+  "widths": [
+    375,
+    390,
+    768,
+    820,
+    1440
+  ],
+  "decodedImages": 8,
+  "generatedVariants": 4,
+  "palettes": 3,
+  "embeddedKoreanFont": true,
+  "errors": [],
+  "externalRequests": [],
+  "actualIPadTest": false,
+  "actualGameplayTest": false
+}

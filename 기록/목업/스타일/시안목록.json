@@ -1,0 +1,82 @@
+[
+  {
+    "id": "B01",
+    "name": "밀키왁스",
+    "file": "기록/목업/스타일/B01_밀키왁스.png",
+    "description": "뽀얗고 매끈한 표면과 넓은 반사. 둥근 부피감이 있는 밀키한 방향입니다.",
+    "note": "현재 추천. 반사와 가장자리를 다듬고 파열 상태에서 얇은 껍질을 더 분명하게 보여줄 후보입니다.",
+    "format": "PNG",
+    "width": 1303,
+    "height": 1207,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bytes": 1368664,
+    "sha256": "3231ef9bde8b272394ff80ceda2963e65098358948cbe83c19524a3fd1be54f2",
+    "generated": true,
+    "reference_photo": false,
+    "style_locked": false
+  },
+  {
+    "id": "B02",
+    "name": "그래픽팝",
+    "file": "기록/목업/스타일/B02_그래픽팝.png",
+    "description": "짙은 민트 외곽선과 큰 명암 면. 네 가지 중 작은 화면에서 형태가 가장 또렷한 그래픽 방향입니다.",
+    "note": "팝스러운 인상이 강합니다. 실제 그림은 요청한 3단계보다 부드러운 음영이 더 남아 있습니다.",
+    "format": "PNG",
+    "width": 1304,
+    "height": 1206,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bytes": 948898,
+    "sha256": "3161ac96a6fe2a42aac4eec1b7ba3cfca0ba7d3177d624318c40fd335ba2fb09",
+    "generated": true,
+    "reference_photo": false,
+    "style_locked": false
+  },
+  {
+    "id": "B03",
+    "name": "밀크젤리",
+    "file": "기록/목업/스타일/B03_밀크젤리.png",
+    "description": "속의 진한 민트색과 밝은 테두리가 보이는 반투명 젤리 방향입니다.",
+    "note": "촉촉함은 강하지만 유리 같은 반사가 생기지 않게 조절할 필요가 있습니다.",
+    "format": "PNG",
+    "width": 1303,
+    "height": 1207,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bytes": 1218856,
+    "sha256": "be90acd9d9bf71792f12a879f9bc20cbc1e66e46c95f804e5cea6ba8a452a1a2",
+    "generated": true,
+    "reference_photo": false,
+    "style_locked": false
+  },
+  {
+    "id": "B04",
+    "name": "소프트클레이",
+    "file": "기록/목업/스타일/B04_소프트클레이.png",
+    "description": "잘게 결이 보이는 무광 표면과 조각한 듯한 둥근 덩어리. 왁스·클레이 방향입니다.",
+    "note": "껍질의 재질감이 강하지만 작은 셀에서는 잔결을 줄여야 합니다.",
+    "format": "PNG",
+    "width": 1303,
+    "height": 1207,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bytes": 1379080,
+    "sha256": "f3c66be304cee675388555dec6d3869f515a5088cbd5f09981cce32659ae615b",
+    "generated": true,
+    "reference_photo": false,
+    "style_locked": false
+  }
+]
